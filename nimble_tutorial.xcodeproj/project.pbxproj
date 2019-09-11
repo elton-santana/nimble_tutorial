@@ -18,6 +18,9 @@
 		950ACC6D23295F2C00EC96B8 /* nimble_tutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950ACC6C23295F2C00EC96B8 /* nimble_tutorialTests.swift */; };
 		950ACC7823295F2C00EC96B8 /* nimble_tutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950ACC7723295F2C00EC96B8 /* nimble_tutorialUITests.swift */; };
 		950ACC862329651E00EC96B8 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950ACC852329651E00EC96B8 /* LoginView.swift */; };
+		950ACC8823296CB500EC96B8 /* LoginViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950ACC8723296CB500EC96B8 /* LoginViewTests.swift */; };
+		950ACC8A23296E3600EC96B8 /* UITextField+setTextAndSendEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950ACC8923296E3600EC96B8 /* UITextField+setTextAndSendEvent.swift */; };
+		950ACC8B23296EEF00EC96B8 /* UITextField+setTextAndSendEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950ACC8923296E3600EC96B8 /* UITextField+setTextAndSendEvent.swift */; };
 		CA2D978B82D646EA43B3DC5B /* Pods_nimble_tutorial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2E3DA14BE94266F717F2D03 /* Pods_nimble_tutorial.framework */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +60,8 @@
 		950ACC7723295F2C00EC96B8 /* nimble_tutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nimble_tutorialUITests.swift; sourceTree = "<group>"; };
 		950ACC7923295F2C00EC96B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		950ACC852329651E00EC96B8 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		950ACC8723296CB500EC96B8 /* LoginViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewTests.swift; sourceTree = "<group>"; };
+		950ACC8923296E3600EC96B8 /* UITextField+setTextAndSendEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+setTextAndSendEvent.swift"; sourceTree = "<group>"; };
 		97F8254440ADA07BF82B3BEB /* Pods-nimble_tutorial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nimble_tutorial.debug.xcconfig"; path = "Target Support Files/Pods-nimble_tutorial/Pods-nimble_tutorial.debug.xcconfig"; sourceTree = "<group>"; };
 		A2D0E248E0AEECB5AB69C09E /* Pods_nimble_tutorialTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nimble_tutorialTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2E3DA14BE94266F717F2D03 /* Pods_nimble_tutorial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nimble_tutorial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -139,6 +144,7 @@
 				950ACC6323295F2B00EC96B8 /* Info.plist */,
 				950ACC5B23295F2A00EC96B8 /* nimble_tutorial.xcdatamodeld */,
 				950ACC852329651E00EC96B8 /* LoginView.swift */,
+				950ACC8923296E3600EC96B8 /* UITextField+setTextAndSendEvent.swift */,
 			);
 			path = nimble_tutorial;
 			sourceTree = "<group>";
@@ -148,6 +154,7 @@
 			children = (
 				950ACC6C23295F2C00EC96B8 /* nimble_tutorialTests.swift */,
 				950ACC6E23295F2C00EC96B8 /* Info.plist */,
+				950ACC8723296CB500EC96B8 /* LoginViewTests.swift */,
 			);
 			path = nimble_tutorialTests;
 			sourceTree = "<group>";
@@ -412,6 +419,7 @@
 			files = (
 				950ACC5723295F2A00EC96B8 /* ViewController.swift in Sources */,
 				950ACC5D23295F2A00EC96B8 /* nimble_tutorial.xcdatamodeld in Sources */,
+				950ACC8A23296E3600EC96B8 /* UITextField+setTextAndSendEvent.swift in Sources */,
 				950ACC862329651E00EC96B8 /* LoginView.swift in Sources */,
 				950ACC5523295F2A00EC96B8 /* AppDelegate.swift in Sources */,
 			);
@@ -421,6 +429,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				950ACC8823296CB500EC96B8 /* LoginViewTests.swift in Sources */,
+				950ACC8B23296EEF00EC96B8 /* UITextField+setTextAndSendEvent.swift in Sources */,
 				950ACC6D23295F2C00EC96B8 /* nimble_tutorialTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

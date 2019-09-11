@@ -81,7 +81,7 @@ class LoginView: UIView {
         self.loginButton.addTarget(self, action: #selector(tapLogin), for: .touchUpInside)
     }
     
-    func tapLogin() {
+    @objc func tapLogin() {
         
         guard let username = userNameTextField.text, let password = passwordTextField.text else {
             return
@@ -90,8 +90,8 @@ class LoginView: UIView {
         self.tapLoginButton?(username, password)
     }
     
-    func textFieldDidChange(_ textField: UITextField) {
-        if self.userNameTextField.isEmpty() || self.passwordTextField.isEmpty() {
+    @objc func textFieldDidChange(_ textField: UITextField) {
+        if self.userNameTextField.text!.isEmpty || self.passwordTextField.text!.isEmpty {
             self.loginButton.isHidden = true
         } else {
             self.loginButton.isHidden = false
